@@ -10,18 +10,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Properties;
 
-/**
- * Platform configuration, loaded exactly once and immutable afterwards.
- *
- * Singleton via the initialization-on-demand holder idiom: the JVM guarantees the
- * Holder class is initialised once, lazily, and safely published to every thread,
- * with no synchronized/volatile code of our own. Because every field is final and
- * the object never changes, concurrent readers (Part E) need no locking at all.
- *
- * Testability caveat (see DESIGN.md G.5): only the composition root (Main) calls
- * getInstance(). Services receive a PlatformConfig through their constructor, so tests
- * can build an isolated one with {@link #fromProperties(Properties)}.
- */
+
 public final class PlatformConfig {
 
     public static final String DEFAULT_FILE = "masr-delivery.properties";

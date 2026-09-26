@@ -6,11 +6,7 @@ import java.math.BigDecimal;
 import java.util.EnumMap;
 import java.util.Map;
 
-/**
- * Symmetric road-distance table between districts (km). The assignment gives only
- * Maadi-Faisal = 12 km, so the rest are fixed, documented reference values that every
- * submission can share. Two points in the same district are treated as 2 km apart.
- */
+
 public final class DistrictDistances {
 
     private final Map<District, Map<District, BigDecimal>> table = new EnumMap<>(District.class);
