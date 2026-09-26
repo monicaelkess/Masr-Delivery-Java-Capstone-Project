@@ -1,0 +1,32 @@
+restaurant_id,type,item_id,name,category,prep_minutes,available,stock,price,extra
+# Components must appear before any combo that uses them.
+R1,STANDARD,K1,Koshary Large,Koshary,10,true,200,45.00,
+R1,STANDARD,K2,Koshary Medium,Koshary,8,true,200,35.00,
+R1,STANDARD,K3,Lentil Soup,Sides,5,true,100,15.00,
+R1,STANDARD,K4,Rice Pudding,Desserts,3,true,80,20.00,
+R1,STANDARD,K5,Tamarind Juice,Drinks,2,true,100,12.50,
+R1,COMBO,KC1,Koshary Feast,Combos,12,true,50,,K1+K3+K4+K5@15
+R1,STANDARD,K6,Om Ali,Desserts,10,false,30,40.00,
+R2,STANDARD,G1,Mixed Grill Plate,Plates,25,true,100,120.00,
+R2,WEIGHTED,G2,Kofta,Grills by weight,30,true,20,420.00,
+R2,WEIGHTED,G3,Grilled Chicken,Grills by weight,30,true,25,260.00,
+R2,STANDARD,G4,Tahini Salad,Sides,5,true,100,25.00,
+R2,STANDARD,G5,Baladi Bread,Sides,1,true,300,2.50,
+R2,COMBO,GC1,Family Grill Box,Combos,35,true,20,,G1+G4+G5@10
+R3,STANDARD,S1,Chicken Shawarma Sandwich,Sandwiches,8,true,150,55.00,
+R3,STANDARD,S2,Beef Shawarma Sandwich,Sandwiches,8,true,150,65.00,
+R3,STANDARD,S3,Fattah Shawarma,Plates,15,true,60,110.00,
+R3,STANDARD,S4,Extra Garlic Sauce,Sides,1,true,5,5.00,
+R3,COMBO,SC1,Shawarma Duo,Combos,12,true,40,,S1+S2@12
+R4,STANDARD,P1,Margherita,Pizza,15,true,80,130.00,
+R4,STANDARD,P2,Pepperoni,Pizza,15,true,80,165.00,
+R4,STANDARD,P3,Garlic Bread,Sides,6,true,80,35.00,
+R4,STANDARD,P4,Soft Drink,Drinks,1,true,200,20.00,
+R4,COMBO,PC1,Pizza Night,Combos,18,true,30,,P1+P3+P4@20
+R5,STANDARD,A1,Salmon Maki 8 pcs,Sushi,12,true,40,185.00,
+R5,STANDARD,A2,Chicken Teriyaki,Mains,15,true,40,150.00,
+R5,WEIGHTED,A3,Grilled Shrimp,Seafood by weight,20,true,10,780.00,
+R6,STANDARD,H1,Basbousa,Oriental Sweets,2,true,100,30.00,
+R6,STANDARD,H2,Konafa with Cream,Oriental Sweets,4,true,60,45.00,
+R6,WEIGHTED,H3,Assorted Sweets,Sweets by weight,5,true,15,350.00,
+R6,STANDARD,H4,Turkish Coffee,Coffee,3,true,200,25.00,

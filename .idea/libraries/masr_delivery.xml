@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="masr-delivery">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/masr-delivery/build/masr-delivery.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
